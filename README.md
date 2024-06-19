@@ -1,66 +1,11 @@
-## Foundry
+## Introduction
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+FishBall Farms is a liquid mining platform. Users can stake LP Token to get FishBall as mining rewards.
 
-Foundry consists of:
+## Farming Strategy
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+![image](/assets/images/1.png)
 
-## Documentation
+Users participate in mining by staking LP Token (support LP Tokens such as UNI-V2 LP, SLP, SALP, etc.) in the corresponding mining pool to earn FishBall.
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+The released FishBall will be distributed to each mining pool according to a specified ratio, and FishBall rewards will be distributed in each mining pool according to the proportion of LP Token staked by users.
